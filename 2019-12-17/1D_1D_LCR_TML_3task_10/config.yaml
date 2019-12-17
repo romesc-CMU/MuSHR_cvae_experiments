@@ -1,6 +1,9 @@
 config: ./exps/exp5.yaml
 data:
   behaviors: LCR
+dataset:
+  behaviors: LCR
+  maps: TML
   task: 3task
 experiment_name: auto
 logging:
