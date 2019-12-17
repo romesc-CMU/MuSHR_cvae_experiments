@@ -1,38 +1,34 @@
-!!python/object:utils.Namespace
-_data:
-  config: cfg/conv_cvae.yaml
-  data:
-    behaviors: LCR
-  experiment_name: auto
-  logging:
-    checkpoint: 10
-    interval: 5
-  model:
-    dec_fc_sizes:
-    - 64
+config: cfg/conv_cvae.yaml
+data:
+  behaviors: LCR
+experiment_name: auto
+logging:
+  checkpoint: 10
+  interval: 5
+model:
+  dec_fc_sizes:
+  - 64
+  - 32
+  enc_conv_tuples:
+  - - 1
     - 32
-    enc_conv_tuples:
-    - - 1
-      - 32
-      - 3
-      - 3
-      - 2
-      - 1
-    - - 32
-      - 16
-      - 3
-      - 2
-      - 2
-      - 1
-    enc_fc_sizes:
+    - 3
+    - 3
+    - 2
+    - 1
+  - - 32
     - 16
-    - 8
-    latent_size: 1
-  training:
-    batch_size: 60
-    beta: 0.1
-    learning_rate: 0.001
-    num_epochs: 40
-    seed: 1
-experiment_name: 1D_LCR_0p1
-logdir: /home/rosario/WRK/MuSHR_cvae_experiments/2019-12-17/1D_LCR_0p1/
+    - 3
+    - 2
+    - 2
+    - 1
+  enc_fc_sizes:
+  - 16
+  - 8
+  latent_size: 1
+training:
+  batch_size: 60
+  beta: 0.1
+  learning_rate: 0.001
+  num_epochs: 40
+  seed: 1

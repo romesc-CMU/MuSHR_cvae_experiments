@@ -28,7 +28,7 @@ model:
   latent_size: 1
 training:
   batch_size: 60
-  beta: 0.01
+  beta: 0.5
   learning_rate: 0.001
   num_epochs: 40
   seed: 1
