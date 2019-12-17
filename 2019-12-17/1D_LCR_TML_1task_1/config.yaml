@@ -1,5 +1,5 @@
 config: ./exps/exp1.yaml
-dataset:
+data:
   behaviors: LCR
 experiment_name: auto
 logging:
