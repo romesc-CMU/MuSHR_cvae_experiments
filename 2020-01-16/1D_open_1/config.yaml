@@ -1,9 +1,10 @@
 !!python/object:utils.Namespace
 _data:
-  config: ./exps/exp4.yaml
+  config: ./exps/exp1.yaml
   data:
-    behaviors: all
+    dataset_name: 2020-01-16/1D_LCR_TML_1task/
   experiment_name: auto
+  fov_description: open
   logging:
     checkpoint: 10
     interval: 5
@@ -30,9 +31,9 @@ _data:
     latent_size: 1
   training:
     batch_size: 60
-    beta: 0.3
+    beta: 1
     learning_rate: 0.001
     num_epochs: 40
     seed: 1
-experiment_name: 1D_all_0p3
-logdir: /home/rosario/WRK/MuSHR_cvae_experiments/2020-01-15/1D_all_0p3/
+experiment_name: 1D_open_1
+logdir: /home/rosario/WRK/MuSHR_cvae_experiments/2020-01-16/1D_open_1/
