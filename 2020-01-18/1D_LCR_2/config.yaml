@@ -2,7 +2,7 @@
 _data:
   config: ./exps/exp2.yaml
   data:
-    dataset_name: 2020-01-16/_1D_LCR_TML_1task/
+    dataset_name: 2020-01-16/1D_LCR_TML_1task/
     root_dir: /home/rosario/WRK/
   experiment_name: auto
   fov_description: LCR
