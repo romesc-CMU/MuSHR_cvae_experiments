@@ -1,16 +1,13 @@
-config: ./exps/exp4.yaml
+config: exps/exp2.yaml
 data:
   dataset_name: 2020-01-21/2.0_1D_LCR_TML_100/
   root_dir: /home/rosario/WRK/
-experiment_name: auto
+experiment_name: LongTrain
 fov_description: LCR
 logging:
   checkpoint: 10
   interval: 5
 model:
-  dec_fc_sizes:
-  - 64
-  - 32
   enc_conv_tuples:
   - - 1
     - 64
@@ -32,11 +29,9 @@ model:
     - 1
   enc_fc_sizes:
   - 16
-  - 8
-  latent_size: 1
+  - 45
 training:
   batch_size: 60
-  beta: 1
   learning_rate: 0.001
-  num_epochs: 40
+  num_epochs: 100
   seed: 1
