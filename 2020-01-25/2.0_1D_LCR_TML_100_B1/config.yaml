@@ -31,7 +31,7 @@ model:
   enc_fc_sizes:
   - 16
   - 8
-  latent_size: 5
+  latent_size: 1
 model_template: ConvConditionalVAE
 training:
   batch_size: 60
