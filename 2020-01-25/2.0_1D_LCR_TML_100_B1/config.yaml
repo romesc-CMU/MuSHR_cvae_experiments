@@ -1,4 +1,4 @@
-config: ./exps/exp1.yaml
+config: ./exps/exp2.yaml
 data:
   behaviors:
     center: 1
@@ -31,7 +31,7 @@ model:
   enc_fc_sizes:
   - 16
   - 8
-  latent_size: 1
+  latent_size: 2
 model_template: ConvConditionalVAE
 training:
   batch_size: 60
