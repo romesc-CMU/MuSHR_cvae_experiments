@@ -4,7 +4,7 @@ data:
     center: 1
     left: 0
     right: 2
-  dataset_name: 2020-01-21/2.0_1D_LCR_TML_100/
+  dataset_name: 2020-01-26/2.0_1D_LCR_TML_T15_50/
   root_dir: /home/rosario/WRK/
 experiment_name: TestAutoencoder
 fov_description: LCR
