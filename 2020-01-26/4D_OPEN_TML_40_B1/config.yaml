@@ -1,4 +1,4 @@
-config: ./exps/exp1.yaml
+config: ./exps/exp2.yaml
 data:
   behaviors:
     default: 0
