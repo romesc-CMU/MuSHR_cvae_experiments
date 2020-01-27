@@ -1,4 +1,4 @@
-config: ./exps/exp2.yaml
+config: ./exps/BCexp.yaml
 data:
   behaviors:
     center: 1
@@ -11,11 +11,8 @@ fov_description: LCR
 logging:
   checkpoint: 10
   interval: 5
-model: ConvConditionalVAE
+model: BC
 model_params:
-  dec_fc_sizes:
-  - 64
-  - 32
   enc_conv_tuples:
   - - 1
     - 32
@@ -32,7 +29,7 @@ model_params:
   enc_fc_sizes:
   - 16
   - 8
-  latent_size: 1
+  latent_size: 4
 training:
   batch_size: 60
   beta: 1
