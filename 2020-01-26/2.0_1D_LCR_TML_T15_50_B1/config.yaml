@@ -29,7 +29,7 @@ model_params:
   enc_fc_sizes:
   - 16
   - 8
-  latent_size: 4
+  latent_size: 0
 training:
   batch_size: 60
   beta: 1
