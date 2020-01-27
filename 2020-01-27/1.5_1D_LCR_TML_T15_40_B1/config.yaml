@@ -1,4 +1,4 @@
-config: ./exps/exp5.yaml
+config: ./exps/exp4.yaml
 data:
   behaviors:
     center: 1
