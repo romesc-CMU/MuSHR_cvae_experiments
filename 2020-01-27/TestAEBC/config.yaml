@@ -21,7 +21,7 @@ modelAE_params:
   - 16
   - 8
   latent_size: 3
-modelBC_params:
+model_params:
   enc_conv_tuples:
   - - 1
     - 32
