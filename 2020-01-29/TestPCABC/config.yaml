@@ -11,7 +11,7 @@ fov_description: LCR
 logging:
   checkpoint: 10
   interval: 5
-model: BC
+model: PCABC
 model_params:
   enc_conv_tuples:
   - - 1
@@ -30,7 +30,7 @@ model_params:
   - 8
   - 16
   - 32
-  latent_size: 10
+  latent_size: 3
 training:
   batch_size: 60
   beta: 1
