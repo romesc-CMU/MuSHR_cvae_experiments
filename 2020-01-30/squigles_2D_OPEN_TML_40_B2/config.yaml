@@ -1,4 +1,4 @@
-config: ./exps/exp7.yaml
+config: ./exps/exp9.yaml
 data:
   behaviors:
     default: 0
@@ -30,7 +30,7 @@ model_params:
   enc_fc_sizes:
   - 16
   - 8
-  latent_size: 1
+  latent_size: 2
 training:
   batch_size: 60
   beta: 2
