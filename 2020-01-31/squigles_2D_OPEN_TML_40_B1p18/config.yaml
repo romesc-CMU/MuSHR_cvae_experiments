@@ -1,8 +1,8 @@
-config: ./exps/exp20.yaml
+config: ./exps/exp15.yaml
 data:
   behaviors:
     default: 0
-  dataset_name: 2020-01-30/smoothed_1.0_XD_OPEN_TML_40/
+  dataset_name: 2020-01-30/squigles_XD_OPEN_TML_40/
   root_dir: /home/rosario/WRK/
 experiment_name: auto
 fov_description: OPEN
@@ -33,7 +33,7 @@ model_params:
   latent_size: 2
 training:
   batch_size: 60
-  beta: 1.2
+  beta: 1.18
   learning_rate: 0.001
   loss: elbo_loss
   num_epochs: 40

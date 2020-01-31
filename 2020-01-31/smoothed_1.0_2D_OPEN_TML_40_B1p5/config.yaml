@@ -1,4 +1,4 @@
-config: ./exps/exp20.yaml
+config: ./exps/exp21.yaml
 data:
   behaviors:
     default: 0
@@ -33,7 +33,7 @@ model_params:
   latent_size: 2
 training:
   batch_size: 60
-  beta: 1.2
+  beta: 1.5
   learning_rate: 0.001
   loss: elbo_loss
   num_epochs: 40
