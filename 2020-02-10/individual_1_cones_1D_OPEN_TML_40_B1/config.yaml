@@ -1,12 +1,12 @@
-config: ./exps/exp8.yaml
+config: ./exps/exp2
 data:
   behaviors: {default: 0}
-  dataset_name: 2020-02-09/individual_1_cones_XD_OPEN_TML_40/
+  dataset_name: 2020-02-10/individual_1_cones_XD_OPEN_TML_40/
   root_dir: /home/rosario/WRK/
 experiment_name: auto
 fov_description: LCR
 logging: {checkpoint: 10, interval: 5}
-model: HistConvConditionalVAE
+model: TaskHistConvConditionalVAE
 model_params:
   dec_fc_sizes: [64, 32]
   enc_conv_tuples:
