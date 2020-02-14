@@ -1,6 +1,6 @@
 config: ./exps/exp1.yaml
 data:
-  behaviors: {default: 0}
+  behaviors: {hi: 2, low: 0, med: 1}
   dataset_name: 2020-02-12/5_2m-squigles_1D_40/
   root_dir: /home/rosario/WRK/
 experiment_name: auto
