@@ -1,10 +1,10 @@
 config: ./exps/exp1.yaml
 data:
-  behaviors: {hi: 2, low: 0, med: 1}
+  behaviors: {hi: 2, low: 0}
   dataset_name: 2020-02-12/5_2m-squigles_1D_40/
   root_dir: /home/rosario/WRK/
 experiment_name: auto
-fov_description: LCR
+fov_description: amplitude_endpoints
 logging: {checkpoint: 10, interval: 5}
 model: TaskHistConvConditionalVAE
 model_params:
