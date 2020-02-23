@@ -1,4 +1,4 @@
-config: ./exps/exp1.yaml
+config: exps/exp1.yaml
 data:
   behaviors: {hi: 1, lo: 0}
   dataset_name: 2020-02-22/scones_midstart_nored_1D_80/
