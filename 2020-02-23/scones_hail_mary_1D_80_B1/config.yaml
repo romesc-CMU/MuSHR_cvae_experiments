@@ -1,0 +1,18 @@
+config: ./exps/exp2.yaml
+data:
+  behaviors: {hi: 1, lo: 0}
+  dataset_name: 2020-02-23/scones_hail_mary_1D_80/
+  root_dir: /home/rosario/WRK/
+experiment_name: auto
+fov_description: sinusoid
+logging: {checkpoint: 10, interval: 5}
+model: HistConvConditionalVAE
+model_params:
+  dec_fc_sizes: [64, 32]
+  enc_conv_tuples:
+  - [1, 32, 3, 3, 2, 1]
+  - [32, 16, 3, 2, 2, 1]
+  enc_fc_sizes: [16, 8]
+  latent_size: 1
+training: {batch_size: 60, beta: 1, learning_rate: 0.001, loss: elbo_loss, num_epochs: 20,
+  seed: 1, shuffle_data: false}
