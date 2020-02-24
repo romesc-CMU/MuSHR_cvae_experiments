@@ -1,4 +1,4 @@
-config: ./exps/exp1.yaml
+config: ./exps/exp8.yaml
 data:
   behaviors: {hi: 1, lo: 0}
   dataset_name: 2020-02-22/scones_midstart_nored_1D_80/
@@ -14,5 +14,5 @@ model_params:
   - [32, 16, 3, 2, 2, 1]
   enc_fc_sizes: [16, 8]
   latent_size: 2
-training: {batch_size: 60, beta: 1.5, learning_rate: 0.001, loss: elbo_loss, num_epochs: 40,
+training: {batch_size: 60, beta: 1.5, learning_rate: 0.001, loss: elbo_loss, num_epochs: 20,
   seed: 1, shuffle_data: false}
