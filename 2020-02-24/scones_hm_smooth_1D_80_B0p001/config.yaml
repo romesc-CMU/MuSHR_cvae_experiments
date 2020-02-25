@@ -1,10 +1,11 @@
-config: ./exps/exp1.yaml
+config: exps/exp1.yaml
 data:
   behaviors: {hi: 1, lo: 0}
   dataset_name: 2020-02-24/scones_hm_smooth_1D_80/
   root_dir: /home/rosario/WRK/
 experiment_name: auto
 fov_description: sinusoid
+gpuid: '0'
 logging: {checkpoint: 10, interval: 5}
 model: HistConvConditionalVAE
 model_params:
