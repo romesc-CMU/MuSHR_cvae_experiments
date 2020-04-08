@@ -1,0 +1,19 @@
+config: ./exps/exp1.yaml
+data:
+  behaviors: {center: 1, left: 0, right: 2}
+  dataset_name: 2020-02-29/1.5_1D_LCR_TML_T15_40/
+  root_dir: /home/rosario/WRK/
+experiment_name: auto
+fov_description: LCR
+gpuid: '0'
+logging: {checkpoint: 10, interval: 5}
+model: ConvConditionalVAE
+model_params:
+  dec_fc_sizes: [64, 32]
+  enc_conv_tuples:
+  - [1, 32, 3, 3, 2, 1]
+  - [32, 16, 3, 2, 2, 1]
+  enc_fc_sizes: [16, 8]
+  latent_size: 1
+training: {batch_size: 60, beta: 1, learning_rate: 0.001, loss: elbo_loss, num_epochs: 40,
+  seed: 1, shuffle_data: false}
