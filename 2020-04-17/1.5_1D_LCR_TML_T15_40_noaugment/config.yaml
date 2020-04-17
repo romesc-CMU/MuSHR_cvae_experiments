@@ -1,7 +1,7 @@
 config: ./exps/exp1.yaml
 data:
   behaviors: {center: 1, left: 0, right: 2}
-  dataset_name: 2020-04-14/1.5_1D_LCR_TML_T15_40/
+  dataset_name: 2020-04-15/1.5_1D_LCR_TML_T15_40/
   root_dir: /home/rosario/WRK/
 experiment_name: 1.5_1D_LCR_TML_T15_40_noaugment
 fov_description: LCR
